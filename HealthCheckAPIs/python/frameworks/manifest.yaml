@@ -1,0 +1,7 @@
+applications:
+- name: redisbasichealthcheck
+  memory: 64M
+  random-route: true
+  command: python redishealthcheck.py
+  services:
+  - Redis

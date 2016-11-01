@@ -1,0 +1,14 @@
+applications:
+- name: service1
+  random-route: true
+  path: service1
+  command: python app.py
+- name: service2
+  random-route: true
+  path: service2
+  command: python app.py
+- name: service3
+  random-route: true
+  path: service3
+  command: python app.py
+

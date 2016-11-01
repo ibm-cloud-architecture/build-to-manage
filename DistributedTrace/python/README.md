@@ -1,5 +1,7 @@
 # Log Correlation in Python
 
+Example implementation of Log Correlation using TransactionID using the standard Python Logging framework.
+
 ## Example output from Cloud Foundry logs
 
 ```
@@ -9,6 +11,16 @@
 2016-10-28T17:34:41.37+0100 [App/0]      ERR INFO [service2,1421901503] : Got response from Service3
 2016-10-28T17:34:41.38+0100 [App/0]      ERR INFO [service1,1421901503] : Got response from Service2
 ```
+
+Explanation of fields:
+
+| Timestamp from Cloud Foundry | Cloud Foundry Component and Index | Output type | LogLevel | Defined appname and TransactionID | General Log Message                                               |
+|------------------------------|-----------------------------------|-------------|----------| ----------------------------------|-------------------------------------------------------------------|
+| 2016-10-28T17:34:41.24+0100  | [App/0]                           | ERR         | INFO     | [service1,1421901503]             | Got a request with transactionID 1421901503. Now calling Service2 |
+
+
+More details on the Cloud Foundry provided fields available on [bluemix documentation pages for logging](https://console.ng.bluemix.net/docs/monitor_log/monitoringandlogging.html#log_format)
+
 
 ## To try the code
 

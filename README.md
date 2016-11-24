@@ -6,6 +6,9 @@ Continued Deploy is a key theme in the cloud world, which means that Operations 
 
 As organizations are working on building out a sustainable culture, we recognize the need for some simple specific steps to follow to start getting some of the benefits in the short term. To this end, we are introducing a new approach to operations which we call Build to Manage. It specifies the practice of activities developers can do in order to instrument the application, or provide manageability aspects as part of an application release. 
 
+![Build To Manage](https://github.com/ibm-cloud-architecture/build-to-manage/blob/master/BTM.png "Build To Manage")
+
+
 The “Build to Manage” approach includes the following aspects:
 
 -	HealthCheck API
@@ -17,10 +20,6 @@ The “Build to Manage” approach includes the following aspects:
 -	Test Cases and Scripts
 -	Runbooks
 -	First Failure Data Capture
-
-
-
-![Build To Manage](https://github.com/ibm-cloud-architecture/build-to-manage/blob/master/BTM.png "Build To Manage")
 
 
 Sample code and links to demonstrate the principles outlined in the Build to Manage Point of View document

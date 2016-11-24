@@ -25,17 +25,29 @@ The “Build to Manage” approach includes the following aspects:
 Sample code and links to demonstrate the principles outlined in the Build to Manage Point of View document
 
 ### HealthAPI
-- [Basic Python examples](HealthCheckAPIs/python/)
-- [Runscope Python HealthCheck example](https://github.com/Runscope/healthcheck)
-- [Broadly NodeJS HealthCheck example](https://github.com/broadly/node-healthchecks)
-- [SportsEngine Ruby on Rails HealthCheck example](https://github.com/sportngin/okcomputer)
+- Python
+  - [Basic Python examples](HealthCheckAPIs/python/)
+  - [Runscope Python HealthCheck example](https://github.com/Runscope/healthcheck)
+- Node.js
+  - [Broadly NodeJS HealthCheck example](https://github.com/broadly/node-healthchecks)
+- Ruby
+  - [SportsEngine Ruby on Rails HealthCheck example](https://github.com/sportngin/okcomputer)
 
 ### Log management
-
-- [eGym Java Log management example](https://github.com/egymgmbh/log-queue)
+- Java
+  - [eGym Java Log management example](https://github.com/egymgmbh/log-queue)
 
 ### Distributed tracing and logging
-- [Basic Python examples](DistributedTrace/python/)
+- Node.js
+   - [Diagnostics Working Group](https://github.com/nodejs/diagnostics)
+- Python
+  - [Basic Python examples](DistributedTrace/python/)
+
+
+### First Failure Data Capture
+- Node.js
+  - [nodereport Delivers a human-readable diagnostic summary](https://github.com/nodejs/nodereport)
+  - [llnode Plugin for LLDB a next generation, high-performance debugger](https://github.com/nodejs/llnode)
 
 
 

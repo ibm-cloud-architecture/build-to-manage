@@ -42,6 +42,8 @@ Sample code and links to demonstrate the principles outlined in the Build to Man
    - [Diagnostics Working Group](https://github.com/nodejs/diagnostics)
 - Python
   - [Basic Python examples](DistributedTrace/python/)
+- Java (framework)
+  - [Spring Cloud Sleuth](https://cloud.spring.io/spring-cloud-sleuth/)
 
 
 ### First Failure Data Capture

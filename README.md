@@ -45,6 +45,16 @@ Sample code and links to demonstrate the principles outlined in the Build to Man
 - Java (framework)
   - [Spring Cloud Sleuth](https://cloud.spring.io/spring-cloud-sleuth/)
 
+**OpenTracing** is a distributed tracing instrumentation standard. It aims to standarize instrumentation, so developers can instrument first, and worry about the collection/distribution/aggregation system later. OpenTracing’s foundational concepts are Traces and Spans. Traces are the “story” of a transaction or workflow as it makes its way through a system. They are represented as directed acyclic graphs. A trace is made up of spans, which each represent one component of the story. Each trace starts with a span. Spans create new spans with two types of relationships that express both the semantics in the system (FollowFrom), and the critical path for latency-sensitive (distributed) operations (ChildOf).
+
+Current languages with [OpenTracing API libraries](http://opentracing.io/documentation/pages/api/api-implementations.html)
+- [Go](https://github.com/opentracing/opentracing-go)
+- [Python](https://github.com/opentracing/opentracing-python) doesn’t support tracers yet, so unusable in production
+- [Javascript](https://github.com/opentracing/opentracing-javascript) not sufficient by itself, and required library to make it work is not yet finished
+- [Objective-C](https://github.com/opentracing/opentracing-objc)
+- [Java](https://github.com/opentracing/opentracing-java) requires explicit tracer instantiation
+- [C++](https://github.com/opentracing/opentracing-cpp) needs some work - this library uses C++98
+
 
 ### First Failure Data Capture
 - Node.js

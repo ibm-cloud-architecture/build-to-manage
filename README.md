@@ -12,7 +12,8 @@ As organizations are working on building out a sustainable culture, we recognize
 The “Build to Manage” approach includes the following aspects:
 
 -	HealthCheck API
--	Log Format and Catalog	
+-	Log Format and Catalog
+-  Monitoring and metrics
 -	Deployment correlation
 -	Distributed Tracing
 -	Topology Information
@@ -20,7 +21,7 @@ The “Build to Manage” approach includes the following aspects:
 -	Test Cases and Scripts
 -	Runbooks
 -	First Failure Data Capture
-
+-  Documentation
 
 Sample code and links to demonstrate the principles outlined in the Build to Manage Point of View document
 
@@ -35,14 +36,32 @@ Sample code and links to demonstrate the principles outlined in the Build to Man
 
 ### Log management
 - Java
+  - [Logging lab](https://ibm-cloud-architecture.github.io/b2m-java/logging/)
   - [eGym Java Log management example](https://github.com/egymgmbh/log-queue)
+- Node.js
+  - [Logging lab](https://ibm-cloud-architecture.github.io/b2m-nodejs/logging/)
+
+### Monitoring and metrics
+- Node.js
+  - [Application instrumentation with metrics lab (Prometheus)](https://ibm-cloud-architecture.github.io/b2m-nodejs/monitoring-instrumentation/)
+  - [Application monitoring with Prometheus and Grafana lab](https://ibm-cloud-architecture.github.io/b2m-nodejs/Prometheus-Grafana/)
+  - [Application monitoring on ICP lab](https://ibm-cloud-architecture.github.io/b2m-nodejs/ICP/)
+  - [Application monitoring on OpenShift lab](https://ibm-cloud-architecture.github.io/b2m-nodejs/OCP/)
+- Java
+  -  [WAS Liberty application instrumentation with metrics lab](https://ibm-cloud-architecture.github.io/b2m-java/monitoring-instrumentation/)
+  -  [Application monitoring with Prometheus and Grafana lab](https://ibm-cloud-architecture.github.io/b2m-java/Prometheus-Grafana/)
+  - [Application monitoring on ICP lab](https://ibm-cloud-architecture.github.io/b2m-java/ICP/)
 
 ### Distributed tracing and logging
 - Node.js
+   - [Distributed tracing lab (Jaeger)](https://ibm-cloud-architecture.github.io/learning-distributed-tracing-101/docs/lab-jaeger-nodejs.html)
+   - [Distributed tracing on OpenShift lab](https://ibm-cloud-architecture.github.io/learning-distributed-tracing-101/docs/ocp-jaeger.html)
    - [Diagnostics Working Group](https://github.com/nodejs/diagnostics)
 - Python
   - [Basic Python examples](DistributedTrace/python/)
 - Java (framework)
+  - [Distributed tracing lab (Jaeger)](https://ibm-cloud-architecture.github.io/learning-distributed-tracing-101/docs/lab-jaeger-java.html)
+  - [Distributed tracing on OpenShift lab](https://ibm-cloud-architecture.github.io/learning-distributed-tracing-101/docs/ocp-jaeger.html)
   - [Spring Cloud Sleuth](https://cloud.spring.io/spring-cloud-sleuth/)
 
 #### Open Tracing
